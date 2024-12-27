@@ -1,34 +1,44 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <sstream>
 
 using namespace std;
 
-void add_product(int id, string name, string catagory, double price, int quantity){
+//creating constant variable
+const int MAX_PRODUCTS = 100;
 
-}
+//creating an array
+int productIDs[MAX_PRODUCTS];
+string productNames[MAX_PRODUCTS];
+string productCategories[MAX_PRODUCTS];
+double productPrices[MAX_PRODUCTS];
+int productQuantities[MAX_PRODUCTS];
 
-void remove_product(int id){
+//product counter
+int productCount = 0;
 
-}
-
-void find_product(int id){
-
-}
-
-void update_product(int id, string name, string catagory, double price, int quantity){
-
-}
-
-void print_product(){
-
-}
-
-void saveToFile(string filename){
-
-}
+//function to add products
 
 
+//function to remove products
+
+
+
+//function to find products
+
+
+//function to update products
+
+
+
+//function to print all the products
+
+
+//function to save to file
+
+
+//calling main function
 int main(){
-    
+
 }
